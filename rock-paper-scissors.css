@@ -1,0 +1,77 @@
+body {
+  background-color: #f8f8f8;
+  font-family: arial;
+  margin: 0;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.move-icon {
+  height: 70px;
+  border-radius: 35px;
+}
+.reset-button,
+.auto-play {
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.reset-button {
+  border: 2px solid #f63e02;
+  color: black;
+}
+.reset-button:hover {
+  background-color: #f63e02;
+  color: white;
+  transition: 0.2s;
+}
+.auto-play:hover {
+  background-color: #1b998b;
+  color: white;
+  transition: 0.2s;
+}
+.auto-play {
+  border: 2px solid #1b998b;
+  color: black;
+}
+.move-button {
+  background-color: white;
+  border: 2px solid black;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.score {
+  margin-top: 50px;
+}
+.rock-paper-scissor-container {
+  width: 500px;
+  margin: 150px auto;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+.reset-confirm-button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reset-confirm-button:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
